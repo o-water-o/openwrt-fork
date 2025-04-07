@@ -30,6 +30,8 @@ jobs:
 
       - name: "拉取项目源码"
         uses: actions/checkout@v4
+        with: 
+          ref: 'v24.10.0'
 
       - name: "编译系统初始化"
         run: |
