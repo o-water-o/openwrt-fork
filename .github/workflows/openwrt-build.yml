@@ -48,7 +48,7 @@ jobs:
       - name: "安装其他feeds 软件"
         run: |
           rm -rf feeds/packages/lang/golang
-          git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
+          git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
 
       - name: "安装feeds"
         run: ./scripts/feeds install -a
