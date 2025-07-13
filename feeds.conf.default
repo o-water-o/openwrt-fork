@@ -3,4 +3,4 @@ src-git luci https://git.openwrt.org/project/luci.git^d6b13f648339273facc07b1735
 src-git routing https://git.openwrt.org/feed/routing.git^85d040f28c21c116c905aa15a66255dde80336e7
 src-git telephony https://git.openwrt.org/feed/telephony.git^2a4541d46199ac96fac214d02c908402831c4dc6
 src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
-src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git^25.6.21-1
+src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git^aa5e94a5b51b823f6f796a4ee7810d4e5e65e8e6
