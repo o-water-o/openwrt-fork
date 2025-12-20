@@ -2,6 +2,9 @@ name: Build ImmortalWrt 24.10.4 Final
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - v24.10.4
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
